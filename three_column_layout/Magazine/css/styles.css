@@ -34,7 +34,6 @@ footer, .logo, .nav-cell, section, aside, .banner, .main, .main-side {
 }
 
 aside {
-    float: left;
     width: 125px;
     height: 496px;
     margin-right: 20px;
@@ -45,6 +44,11 @@ aside {
     justify-content: space-between;
     width: 84%;
     flex-wrap: wrap;
+}
+
+.flex-5 {
+    display: flex;
+    align-content: space-between;
 }
 
 .banner {
