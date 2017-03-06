@@ -1,0 +1,98 @@
+body {}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.image,
+.left-column,
+aside,
+footer,
+nav,
+article {
+  background-color: lightgray;
+  border: 1px solid darkgray;
+}
+
+header {
+  margin-bottom: 20px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  height: 10vh;
+  margin-top: 20px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  justify-content: space-between;
+  flex-grow: 2;
+  align-items: center;
+}
+
+.content-container4 {
+  height: 25vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.content-container2 {
+  height: 25vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  flex-grow: 1;
+  margin-right: 60px;
+}
+
+nav {
+  flex-grow: 1;
+  height: 40px;
+  margin-left: 10px;
+}
+
+article {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+aside {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+aside:nth-child(1) {
+  margin-left: 0px;
+}
+
+.content-container2 aside:first-child {
+  flex-grow: 3;
+}
+
+.verticle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-column {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.right-column {
+  flex-grow: 6;
+
+}
