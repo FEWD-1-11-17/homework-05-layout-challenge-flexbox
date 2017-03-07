@@ -14,29 +14,32 @@ header, aside, footer, article {
 
 .header {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   height: 120px;
   margin-bottom: 20px;
 }
 
 .logo {
   display: flex;
-  height: 100%;
   width: 30%
 }
 
-header {
+.logo-1 {
   width: 80%;
 }
 
 .nav {
   display: flex;
-  flex-direction: row;
-  height: 50px;
+  height: 100%;
   width: 70%;
   margin-bottom: 20px;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
   justify-content: flex-end;
+  height: 50px;
+  width: 100%;
 }
 
 .nav aside {
