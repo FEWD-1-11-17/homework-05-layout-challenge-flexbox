@@ -1,0 +1,54 @@
+.container  {
+  width:960px;
+  margin: 0 auto;
+}
+
+header, section, article, footer  {
+  background-color: #EEEEEE;
+  border: 1px solid #333;
+}
+
+header  {
+  margin-bottom: 20px;
+  height: 100px;
+}
+
+footer  {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.section-container  {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  /*stretch won't work if you specify a height to the flex items*/
+}
+
+.article-container  {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  /*stretch won't work if you specify a height to the flex items*/
+}
+
+section {
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+#left {
+  margin-right: 20px;
+}
+
+article {
+  flex-grow: 1;
+}
+
+.left_a {
+  margin-right: 20px;
+}
