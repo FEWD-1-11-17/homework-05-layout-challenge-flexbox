@@ -1,0 +1,64 @@
+.container  {
+  width:960px;
+  margin: 0 auto;
+}
+
+section, article, footer  {
+  background-color: #EEEEEE;
+  border: 1px solid #333;
+}
+
+header  {
+  display: flex;
+}
+
+header .logo {
+  background-color: #EEEEEE;
+  border: 1px solid #333;
+  height: 100px;
+  width: 20%;
+}
+
+nav {
+  width:80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav .nav-item {
+  border: 1px solid #333;
+  background-color: #EEEEEE;
+  height: 50px;
+  margin-left: 5%;
+  margin-top: 20px;
+  width: 18%;
+}
+
+section {
+  height: 300px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.article-container  {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+article {
+  flex-grow: 1;
+}
+
+.left_a {
+  margin-right: 20px;
+}
+
+footer  {
+  height: 100px;
+  margin-top: 20px;
+}
