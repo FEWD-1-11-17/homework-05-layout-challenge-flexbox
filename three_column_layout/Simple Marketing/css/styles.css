@@ -1,0 +1,52 @@
+header, footer, section, article {
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+header {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.flex-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.article-left {
+    margin-right: 10px;
+}
+
+.article-right {
+    margin-left: 10px;
+}
+
+section {
+    height: 100px;
+    width: 33%;
+}
+
+.middle-section {
+    margin: 0 20px;
+}
