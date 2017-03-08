@@ -3,7 +3,7 @@
 <br>
 
 ---
-
+/Users/mtaverne/Documents/Projects/GA/FEWD-1-11-17/github/homework-05-layout-challenge-flexbox/README.md
 ### Instructions
 
 Use flexbox to recreate the following layouts (depicted in the layouts.pdf):
