@@ -1,0 +1,74 @@
+body {
+
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.logo, .navItem, aside, footer, article {
+  background-color: #EEEEEE;
+  border: 1px solid #333333;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+
+.navigation {
+  height: 100px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100px;
+  width: 20%;
+}
+
+.navItem {
+  height: 50px;
+  width: 130px;
+}
+
+footer {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.content-container {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+
+}
+
+.ads {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+
+}
+
+article {
+  width: 31.5%;
+  margin-top: 20px;
+}
+
+aside {
+  width: 100%;
+}
+
