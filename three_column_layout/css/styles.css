@@ -41,8 +41,7 @@ article {
 aside {
   width: 20%;
   /*flex-grow: 1;*/
-  flex: 1 15%;
-
+  flex: 10%;
 }
 
 

@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 
-.logo, .nav-item, .hero, .section-left, .section-right, aside, article, .footer {
+.logo, .nav-item, .hero, .section-left, .section-right, aside, article, footer {
   background-color: #dddddd;
   border: 1px solid #000000;
 }
@@ -88,7 +88,7 @@ article {
   width: 20%;
 }
 
-.footer {
+footer {
   height: 100px;
   margin-top: 20px;
 }
