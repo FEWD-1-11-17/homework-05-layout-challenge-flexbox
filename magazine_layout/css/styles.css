@@ -1,0 +1,93 @@
+body{
+
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header, nav, aside, footer, article {
+  background-color: #EEEEEE;
+  border: 1px solid #333333;
+}
+
+header {
+  height: 100px;
+  width: 20%;
+  align-self: flex-start;
+}
+
+#header-content-box {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 100px;
+  margin-top: 20px;
+}
+
+nav {
+  height: 40px;
+  width: 40%;
+  margin-left: 10px;
+}
+
+.top-nav-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.navigation-container {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  align-self: center;
+  justify-content: flex-end;
+/*  align-items: stretch;*/
+}
+
+.middle-section-container {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+
+}
+
+#side-article {
+  width: 15%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.two-box-content-container {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+article {
+  width: 49%;
+  margin-bottom: 20px;
+}
+
+.four-box-content-container {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+aside {
+  width: 22%;
+}

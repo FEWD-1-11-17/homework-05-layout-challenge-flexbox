@@ -1,0 +1,72 @@
+body{
+
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header, nav, aside, footer, article {
+  background-color: #EEEEEE;
+  border: 1px solid #333333;
+}
+
+header {
+  height: 100px;
+  width: 25%;
+  align-self: flex-start;
+}
+
+footer {
+  height: 100px;
+  margin-top: 20px;
+}
+
+nav {
+  height: 50px;
+  width: 40%;
+  margin-left: 20px;
+}
+
+.top-nav-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.navigation-container {
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  align-self: center;
+  justify-content: flex-end;
+/*  align-items: stretch;*/
+}
+
+.two-box-content-container {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+article {
+  width: 49%;
+  margin-bottom: 20px;
+}
+
+.three-box-content-container {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+aside {
+  width: 32%;
+}
