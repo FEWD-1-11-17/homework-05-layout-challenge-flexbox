@@ -1,0 +1,60 @@
+body {
+
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header, aside, footer, article {
+  background-color: #EEEEEE;
+  border: 1px solid #333333;
+}
+
+header {
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.content-container {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+article {
+  width: 50%;
+  margin-left: 20px;
+}
+
+aside {
+  width: 50%;
+}
+
+.content-container-2 {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 20px;
+}
+
+.smaller  {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+
+
+
