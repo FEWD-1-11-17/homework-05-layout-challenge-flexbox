@@ -1,0 +1,79 @@
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+header, aside, footer, article, section{
+  background-color: #eee;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+
+header{
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+footer{
+  height: 100px;
+  margin-top: 20px;
+}
+
+
+.content-container-main{
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*align-items: stretch;*/
+  margin-bottom: 20px;
+
+}
+
+.content-container-section{
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*align-items: stretch;*/
+
+}
+
+
+article{
+  width: 30%;
+  /*height: 300px;*/
+  /*margin-left: 20px;*/
+  margin-right: 20px;
+  flex-grow: 3;
+}
+
+
+aside{
+  width: 20%;
+  /*height: 300px;*/
+  flex-grow: 2;
+  /*flex: 1 15%;*/
+
+}
+
+section{
+  width: 15%;
+  /*height: 120px;*/
+  /*margin-right: 20px;*/
+  flex-grow: 1;
+
+
+}
+
+
+.mid-section{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+

@@ -1,0 +1,119 @@
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.logo, .item, footer, article, section, aside{
+  background-color: #eee;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  height: 100px;
+}
+
+.item{
+  width: 15%;
+  height: 30px;
+  /*margin-right: 10px;*/
+}
+
+.logo{
+  width: 20%;
+}
+
+.menu{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+footer{
+  height: 100px;
+  margin-top: 20px;
+}
+
+.info-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+aside{
+  width: 15%;
+  height: 500px;
+
+}
+
+.content-container-articles{
+
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*flex-wrap: wrap;*/
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+}
+
+
+article{
+  height:150px;
+}
+
+.intro{
+  margin-bottom: 20px;
+}
+
+.headlines{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*height: 100px;*/
+}
+
+.first{
+
+  width: 60%;
+
+}
+
+.second{
+  width: 35%;
+}
+
+
+.content-container-section{
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  /*align-items: stretch;*/
+
+}
+
+
+section{
+  width: 22%;
+  /*height: 120px;*/
+  /*margin-right: 20px;*/
+  /*flex-grow: 1;*/
+
+}
+
+
+
+
+
