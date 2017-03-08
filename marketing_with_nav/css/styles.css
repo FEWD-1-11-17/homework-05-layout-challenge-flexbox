@@ -14,48 +14,34 @@ header, aside, footer, article {
 
 .header {
   display: flex;
-  height: 120px;
+  height: 125px;
   margin-bottom: 20px;
 }
 
-.logo {
-  display: flex;
-  width: 30%
+header {
+  width: 25%;
+  margin-right: 30px;
 }
 
-.logo-1 {
-  width: 80%;
-}
-
-.nav {
-  display: flex;
-  height: 100%;
-  width: 70%;
-  margin-bottom: 20px;
-  align-items: center;
-}
-
-.nav-items {
-  display: flex;
-  justify-content: flex-end;
-  height: 50px;
-  width: 100%;
-}
-
-.nav aside {
+.header aside {
   width: 20%;
-  height: 100%;
+  margin-left: 20px;
+  height: 50px;
+  align-self: center;
 }
 
-.nav-1 {
-  margin-right: 15px;
+.content-container {
+  height: 350px;
+  display: flex;
 }
 
 article {
   width: 100%;
-  height: 350px;
 }
 
+.article-1 {
+  margin-right: 20px;
+}
 
 .sub-content {
   height: 150px;

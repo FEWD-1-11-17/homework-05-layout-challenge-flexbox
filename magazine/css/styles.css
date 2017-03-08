@@ -1,5 +1,4 @@
 body {
-
 }
 
 .container {
@@ -14,87 +13,79 @@ header, aside, footer, article {
 
 .header {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   height: 120px;
   margin-bottom: 20px;
 }
 
-.logo {
-  display: flex;
-  height: 100%;
-  width: 30%
-}
-
 header {
-  width: 80%;
+  width: 35%;
+  margin-right: 30px;
 }
 
-.nav {
-  display: flex;
-  flex-direction: row;
-  height: 40px;
-  width: 70%;
-  margin-bottom: 20px;
-  justify-content: flex-end;
-}
-
-.nav aside {
+.header aside {
   width: 20%;
-  height: 100%;
+  margin-left: 10px;
+  height: 50px;
+  align-self: center;
 }
-
-.nav-1 {
-  margin-right: 15px;
-}
-
 
 .content-container {
-  height: 700px;
+  height: 600px;
   display: flex;
 }
 
-.article-1 {
+.side-article {
   width: 20%;
-  height: 700px;
-}
-
-.article-2 {
-  width: 80%;
-  height: 125px;
-  margin-left: 30px;
-}
-
-.article-3 {
-/*  width: 80%;
-  height: 125px;
-  margin-left: 30px;*/
-}
-
-.article-4 {
-/*  width: 80%;
-  height: 125px;
-  margin-left: 30px;*/
-}
-
-.sub-content {
-  height: 150px;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-aside {
-  height: 150px;
-  display: flex;
-  justify-content: space-around;
-  width: 35%;
-  flex-direction: row;
-}
-
-.aside-2 {
+  height: 100%;
   margin-right: 20px;
 }
+
+.side-article article {
+  width: 100%;
+  height: 100%;
+}
+
+.right-side-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.horizontal-article {
+  height: 20%;
+  width: 100%;
+}
+
+.middle-articles {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.article-left {
+  width: 74%;
+}
+
+.article-right {
+  width: 22%;
+}
+
+.four-friends {
+  display: flex;
+  flex-direction: row;
+  height: 25%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.four-friends article {
+  width: 22%;
+}
+
 
 footer {
   height: 125px;
