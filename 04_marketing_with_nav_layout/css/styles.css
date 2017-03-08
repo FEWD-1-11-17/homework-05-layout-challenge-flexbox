@@ -1,0 +1,78 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header, aside, footer, article, .nav {
+  background-color: #EEEEEE;
+  border: 1px solid #333333;
+}
+
+.container {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  height: 100px;
+  margin-right: 150px;
+  flex: 2;
+}
+
+.nav-container {
+  width: 65%;
+  height: 50px;
+  display: flex;
+  align-self: center;
+}
+
+.nav {
+  height: 50px;
+  margin-left: 20px;
+  flex: 1;
+}
+
+footer {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.content-container {
+  height: 300px;
+  width: 100%;
+  display: flex;
+}
+
+
+.content-container-2 {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 20px;
+}
+
+article {
+  flex: 1;
+}
+
+aside {
+  flex: 1;
+}
+
+.smaller  {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+

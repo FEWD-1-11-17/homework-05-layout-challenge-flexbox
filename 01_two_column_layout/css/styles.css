@@ -1,0 +1,49 @@
+body {
+
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header, aside, footer, article {
+  background-color: #EEEEEE;
+  border: 1px solid #333333;
+}
+
+header {
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.content-container {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+
+}
+
+article {
+  width: 30%;
+  margin-left: 20px;
+  flex-grow: 1 15%;
+}
+
+aside {
+  width: 25%;
+  flex: 4;
+
+}
+
+
+
+
