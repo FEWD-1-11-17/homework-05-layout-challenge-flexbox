@@ -1,0 +1,36 @@
+header, article, footer {
+	background-color: grey;
+	border: 1px solid black;
+}
+
+header {
+	height: 100px;
+	margin: 20px;
+}
+
+footer {
+	height: 100px;
+	margin: 20px;
+}
+
+.midbox {
+	height: 300px;
+	width: 50%;
+	margin: 20px;
+}
+
+.lowbox {
+	height: 200px;
+	width: 33%;
+	margin: 20px;
+}
+
+.layer2 {
+	display: flex;
+	justify-content: center;
+}
+
+.layer3 {
+	display: flex;
+	justify-content: center;
+}

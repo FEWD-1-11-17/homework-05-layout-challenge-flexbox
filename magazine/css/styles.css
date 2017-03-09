@@ -1,0 +1,85 @@
+article, footer {
+	background-color: grey;
+	border: 1px solid black;
+}
+
+.topdiv {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 20px;
+}
+
+.minibox {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 50px;
+	width: 15%;
+}
+
+.topleftbox {
+	height: 100px;
+	width: 25%;
+	margin: 20px;
+}
+
+.boxstring {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.bigdiv {
+	display: flex;
+	justify-content: flex-start;
+	margin: 20px;
+	height: 600px;
+}
+
+.tallbox {
+	height: 600px;
+	width: 15%;
+}
+
+.fatdiv {
+	height: 600px;
+	width: 85%;
+	margin-left: 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.longart {
+	margin-bottom: 20px;
+	height: 180px;
+}
+
+.midmiddiv {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.fourboxes {
+	display: flex;
+	justify-content: space-between;
+}
+
+.biggerbox {
+	height: 180px;
+	width: 73%;
+}
+
+.smallerbox {
+	height: 180px;
+	width: 20%;
+}
+
+.fourboxes article {
+	height: 180px;
+	width: 20%;
+}
+footer {
+	height: 200px;
+	margin: 20px;
+}
