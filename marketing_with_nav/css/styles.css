@@ -1,0 +1,49 @@
+header, article, footer {
+	background-color: grey;
+	border: 1px solid black;
+}
+
+.topleftbox {
+	height: 100px;
+	width: 33%;
+	margin: 20px;
+}
+
+.bigbox {
+	height: 400px;
+	width: 97%;
+	margin: 20px;
+}
+
+.midbox {
+	height: 200px;
+	width: 33%;
+	margin: 20px;
+}
+
+.topdiv {
+	margin-right: 20px;
+}
+
+.layer3 {
+	display: flex;
+	justify-content: center;
+}
+
+.footer {
+	height: 100px;
+	width: 97%;
+	margin: 20px;
+}
+
+.boxstring {
+	display: flex;
+	justify-content: space-between;
+}
+
+.minibox {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 50px;
+	width: 15%;
+}
